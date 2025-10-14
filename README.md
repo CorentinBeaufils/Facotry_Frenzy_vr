@@ -5,15 +5,17 @@
 - [x] **Ajout d’un XR Controller**  
   Intégration du contrôleur XR afin de permettre les interactions de base dans l’environnement virtuel.
 
+- [x] **Création d’un menu basique**  
+  Mettre en place un menu simple visible en VR (Canvas ou panneau 3D).
+
+- [x] **Ajout de la fonctionnalité de grab sur le menu**  
+  Permettre au joueur de saisir et déplacer le menu dans l’espace.
+
 ---
 
 ## Tâches à venir
 
-- [ ] **Création d’un menu basique**  
-  Mettre en place un menu simple visible en VR (Canvas ou panneau 3D).
 
-- [ ] **Ajout de la fonctionnalité de grab sur le menu**  
-  Permettre au joueur de saisir et déplacer le menu dans l’espace.
 
 - [ ] **Ajout de boutons interactifs**  
   Ajouter plusieurs boutons au menu (exemples : "Start", "Quit", "Options", "Sélection des prefabs", "Sauvegarde") avec des actions associées.
