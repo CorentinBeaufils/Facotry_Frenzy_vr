@@ -16,7 +16,7 @@
 - [x] **Création d’un sérialiseur d’objets de la scène**  
   Développer un système permettant d’enregistrer et de restaurer les objets présents dans la scène.
 
--[x] **On peut supprimer les objets en les grabbant ouis en les activant**
+- [x] **On peut supprimer les objets en les grabbant ouis en les activant**
 
 
 ---
