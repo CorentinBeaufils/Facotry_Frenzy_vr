@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 6581443949971158542}
   - component: {fileID: 2668683173395037068}
   - component: {fileID: 6929919055627668783}
+  - component: {fileID: 3935464878490633478}
   m_Layer: 0
   m_Name: Platform Trampoline
   m_TagString: Untagged
@@ -210,6 +211,18 @@ MonoBehaviour:
   m_StartingSingleGrabTransformers: []
   m_StartingMultipleGrabTransformers: []
   m_AddDefaultGrabTransformers: 1
+--- !u!114 &3935464878490633478
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4652329573806549489}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5eeae586d6e0f3a409d1982bec8287cb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &8165750234495722686
 PrefabInstance:
   m_ObjectHideFlags: 0

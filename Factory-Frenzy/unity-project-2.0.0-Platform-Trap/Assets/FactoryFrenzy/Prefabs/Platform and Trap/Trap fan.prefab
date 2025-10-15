@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 6581443949971158542}
   - component: {fileID: 9214095411967420487}
   - component: {fileID: 6035384194891203493}
+  - component: {fileID: -8211814369326499283}
   m_Layer: 0
   m_Name: Trap fan
   m_TagString: Untagged
@@ -212,6 +213,18 @@ MonoBehaviour:
   m_StartingSingleGrabTransformers: []
   m_StartingMultipleGrabTransformers: []
   m_AddDefaultGrabTransformers: 1
+--- !u!114 &-8211814369326499283
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4652329573806549489}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5eeae586d6e0f3a409d1982bec8287cb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &910115789156857328
 PrefabInstance:
   m_ObjectHideFlags: 0
