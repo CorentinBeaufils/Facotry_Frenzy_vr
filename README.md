@@ -16,6 +16,9 @@
 - [x] **Création d’un sérialiseur d’objets de la scène**  
   Développer un système permettant d’enregistrer et de restaurer les objets présents dans la scène.
 
+-[x] **On peut supprimer les objets en les grabbant ouis en les activant**
+
+
 ---
 
 ## Tâches à venir
@@ -25,10 +28,6 @@
 
 - [ ] **Ajout d’images sur les boutons**  
   Afficher une image représentant chaque prefab afin de le visualiser avant la sélection.
-
-- [ ] **Ajout des objets dans la main avant leur placement**  
-  Permettre au joueur de saisir l’objet sélectionné avant de le positionner dans la scène.
-
 
 
 - [ ] **Développement d’un outil de sauvegarde compatible multijoueur**  
