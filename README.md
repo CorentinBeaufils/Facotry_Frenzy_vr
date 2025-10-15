@@ -13,6 +13,8 @@
 
 - [x] **Apparition de prefabs via les boutons**  
   Créer des boutons de base permettant de faire apparaître des prefabs dans la scène.
+- [x] **Création d’un sérialiseur d’objets de la scène**  
+  Développer un système permettant d’enregistrer et de restaurer les objets présents dans la scène.
 
 ---
 
@@ -27,8 +29,7 @@
 - [ ] **Ajout des objets dans la main avant leur placement**  
   Permettre au joueur de saisir l’objet sélectionné avant de le positionner dans la scène.
 
-- [ ] **Création d’un sérialiseur d’objets de la scène**  
-  Développer un système permettant d’enregistrer et de restaurer les objets présents dans la scène.
+
 
 - [ ] **Développement d’un outil de sauvegarde compatible multijoueur**  
   Concevoir un système de sauvegarde des données synchronisé entre plusieurs joueurs.
