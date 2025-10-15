@@ -10,6 +10,7 @@
 
 - [x] **Ajout de la fonctionnalité de grab sur le menu**  
   Permettre au joueur de saisir et déplacer le menu dans l’espace.
+
 - [x] **Apparition de prefabs via les boutons**  
   Créer des boutons de base permettant de faire apparaître des prefabs dans la scène.
 
