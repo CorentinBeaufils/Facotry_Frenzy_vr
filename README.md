@@ -17,7 +17,8 @@
   Développer un système permettant d’enregistrer et de restaurer les objets présents dans la scène.
 
 - [x] **On peut supprimer les objets en les grabbant ouis en les activant**
-
+- [x] **Ajout d’images sur les boutons**  
+  Afficher une image représentant chaque prefab afin de le visualiser avant la sélection.
 
 ---
 
@@ -26,8 +27,7 @@
 - [ ] **Ajout de boutons interactifs**  
   Ajouter plusieurs boutons au menu (exemples : "Start", "Quit", "Options", "Sélection des prefabs", "Sauvegarde") avec des actions associées.
 
-- [ ] **Ajout d’images sur les boutons**  
-  Afficher une image représentant chaque prefab afin de le visualiser avant la sélection.
+
 
 
 - [ ] **Développement d’un outil de sauvegarde compatible multijoueur**  
