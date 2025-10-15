@@ -10,18 +10,15 @@
 
 - [x] **Ajout de la fonctionnalité de grab sur le menu**  
   Permettre au joueur de saisir et déplacer le menu dans l’espace.
+- [x] **Apparition de prefabs via les boutons**  
+  Créer des boutons de base permettant de faire apparaître des prefabs dans la scène.
 
 ---
 
 ## Tâches à venir
 
-
-
 - [ ] **Ajout de boutons interactifs**  
   Ajouter plusieurs boutons au menu (exemples : "Start", "Quit", "Options", "Sélection des prefabs", "Sauvegarde") avec des actions associées.
-
-- [ ] **Apparition de prefabs via les boutons**  
-  Créer des boutons de base permettant de faire apparaître des prefabs dans la scène.
 
 - [ ] **Ajout d’images sur les boutons**  
   Afficher une image représentant chaque prefab afin de le visualiser avant la sélection.
