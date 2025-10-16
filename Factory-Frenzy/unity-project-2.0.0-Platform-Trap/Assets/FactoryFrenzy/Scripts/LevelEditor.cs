@@ -3,6 +3,7 @@ using UnityEngine;
 
 public class LevelEditor : MonoBehaviour {
     public List<GameObject> availablePrefabs;
+    [HideInInspector]
     public List<GameObject> placedObjects = new List<GameObject>();
 
     public void PlaceObject(GameObject prefab, Vector3 position, Quaternion rotation) {
