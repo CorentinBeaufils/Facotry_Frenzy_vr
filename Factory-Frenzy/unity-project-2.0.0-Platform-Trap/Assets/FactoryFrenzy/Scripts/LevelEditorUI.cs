@@ -5,7 +5,9 @@ using UnityEngine;
 public class LevelEditorUI : MonoBehaviour
 {
     public LevelEditor editor;         
-    public Transform playerCamera;     
+    public Transform playerCamera;
+    public AudioClip spawnSound;
+    public float volume = 1.0f;
 
     public void SpawnPrefab(GameObject prefab)
     {
@@ -15,5 +17,10 @@ public class LevelEditorUI : MonoBehaviour
         Quaternion rot = Quaternion.identity;
 
         editor.PlaceObject(prefab, pos, rot);
+
+        if (spawnSound != null)
+        {
+            AudioSource.PlayClipAtPoint(spawnSound, pos, volume);
+        }
     }
 }

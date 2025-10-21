@@ -1852,7 +1852,7 @@ PrefabInstance:
     - target: {fileID: 6101285396330613928, guid: b6b9c2dd55a0df94cba21b0c11764a19,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 6101285396330613928, guid: b6b9c2dd55a0df94cba21b0c11764a19,
         type: 3}
@@ -3478,7 +3478,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 9527a545d8d7f0e46a61cef2f642734f, type: 2}
+  - {fileID: 2100000, guid: ff188f58422043f489060e28a5e4e0c0, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -4028,6 +4028,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   editor: {fileID: 1517252197}
   playerCamera: {fileID: 1984147655}
+  spawnSound: {fileID: 8300000, guid: c55718160166b7841897858be525c9ec, type: 3}
+  volume: 1
 --- !u!114 &2131279634
 MonoBehaviour:
   m_ObjectHideFlags: 0
