@@ -5,6 +5,8 @@ public class DeleteOnClick : MonoBehaviour
 {
     private XRGrabInteractable interactable;
     private LevelEditor levelEditor;
+    public AudioClip deleteSound;
+    public float volume = 1.0f;
     void Start()
     {
         // Récupère le composant XR Interactable
@@ -26,6 +28,10 @@ public class DeleteOnClick : MonoBehaviour
         if (levelEditor != null)
         {
             levelEditor.RemoveObject(gameObject); // supprime proprement
+            if (deleteSound != null)
+            {
+                AudioSource.PlayClipAtPoint(deleteSound, transform.position, volume);
+            }
         }
         else
         {

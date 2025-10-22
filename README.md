@@ -19,6 +19,8 @@
 - [x] **On peut supprimer les objets en les grabbant ouis en les activant**
 - [x] **Ajout d’images sur les boutons**  
   Afficher une image représentant chaque prefab afin de le visualiser avant la sélection.
+- [x] **Ajout de sons sur certaines actions**  
+  Jouer un son quand on delete un objet ou quand il spawn.
 
 ---
 
