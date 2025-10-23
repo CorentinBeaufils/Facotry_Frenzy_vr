@@ -1,5 +1,209 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1490428182910985694
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7623381091927579459}
+  - component: {fileID: 1428342919400977045}
+  m_Layer: 0
+  m_Name: SnapPoint_Bottom
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7623381091927579459
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1490428182910985694}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: -0.02, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 5167921780695041142}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1428342919400977045
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1490428182910985694}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a5553c00a1f32de4b9246b000db19105, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  direction: 1
+  isOccupied: 0
+  occupiedBy: {fileID: 0}
+  acceptedTags: []
+  gizmoColorFree: {r: 0, g: 1, b: 0, a: 1}
+  gizmoColorOccupied: {r: 1, g: 0, b: 0, a: 1}
+  gizmoSize: 0.05
+--- !u!1 &2292457378178995237
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3918517635065371094}
+  - component: {fileID: 8182071617809333034}
+  m_Layer: 0
+  m_Name: SnapPoint_Left
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3918517635065371094
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2292457378178995237}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.14, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 5167921780695041142}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8182071617809333034
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2292457378178995237}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a5553c00a1f32de4b9246b000db19105, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  direction: 2
+  isOccupied: 0
+  occupiedBy: {fileID: 0}
+  acceptedTags: []
+  gizmoColorFree: {r: 0, g: 1, b: 0, a: 1}
+  gizmoColorOccupied: {r: 1, g: 0, b: 0, a: 1}
+  gizmoSize: 0.05
+--- !u!1 &3113738901904371705
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5647909975992817006}
+  - component: {fileID: 5084665961888826847}
+  m_Layer: 0
+  m_Name: SnapPoint_Back
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5647909975992817006
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3113738901904371705}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: -0.18}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 5167921780695041142}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5084665961888826847
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3113738901904371705}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a5553c00a1f32de4b9246b000db19105, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  direction: 5
+  isOccupied: 0
+  occupiedBy: {fileID: 0}
+  acceptedTags: []
+  gizmoColorFree: {r: 0, g: 1, b: 0, a: 1}
+  gizmoColorOccupied: {r: 1, g: 0, b: 0, a: 1}
+  gizmoSize: 0.05
+--- !u!1 &3492918113586909450
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7012275210147469631}
+  - component: {fileID: 7607736811196310327}
+  m_Layer: 0
+  m_Name: SnapPoint_Front
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7012275210147469631
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3492918113586909450}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0.18}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 5167921780695041142}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7607736811196310327
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3492918113586909450}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a5553c00a1f32de4b9246b000db19105, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  direction: 4
+  isOccupied: 0
+  occupiedBy: {fileID: 0}
+  acceptedTags: []
+  gizmoColorFree: {r: 0, g: 1, b: 0, a: 1}
+  gizmoColorOccupied: {r: 1, g: 0, b: 0, a: 1}
+  gizmoSize: 0.05
 --- !u!1 &4652329573806549489
 GameObject:
   m_ObjectHideFlags: 0
@@ -12,6 +216,7 @@ GameObject:
   - component: {fileID: 3938274315335193187}
   - component: {fileID: 2107289718513750333}
   - component: {fileID: 2738062252492534309}
+  - component: {fileID: 2121080703515796657}
   m_Layer: 0
   m_Name: Platform Classical 360
   m_TagString: Untagged
@@ -29,7 +234,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 3.5, y: 3.5, z: 3.5}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 832836957953738854}
@@ -39,6 +244,7 @@ Transform:
   - {fileID: 69950406038535583}
   - {fileID: 4955265303525768823}
   - {fileID: 1135386266652887769}
+  - {fileID: 5167921780695041142}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!54 &3938274315335193187
@@ -237,6 +443,162 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   deleteSound: {fileID: 8300000, guid: 9210ca55c4109e34d8a0ef6a5ae5fc33, type: 3}
   volume: 1
+--- !u!114 &2121080703515796657
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4652329573806549489}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cd5498ea882ac714c82fa1bd8442868f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  snapDistance: 0.2
+  snapDelay: 0.2
+  snapSpeed: 10
+  showDebugSphere: 1
+  debugColor: {r: 0, g: 1, b: 1, a: 1}
+--- !u!1 &7779632819281528409
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2076357461582813359}
+  - component: {fileID: 2999934578358735469}
+  m_Layer: 0
+  m_Name: SnapPoint_Top
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2076357461582813359
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7779632819281528409}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0.02, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 5167921780695041142}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2999934578358735469
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7779632819281528409}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a5553c00a1f32de4b9246b000db19105, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  direction: 0
+  isOccupied: 0
+  occupiedBy: {fileID: 0}
+  acceptedTags: []
+  gizmoColorFree: {r: 0, g: 1, b: 0, a: 1}
+  gizmoColorOccupied: {r: 1, g: 0, b: 0, a: 1}
+  gizmoSize: 0.05
+--- !u!1 &7957174993400419692
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3553759176019602731}
+  - component: {fileID: 6579503018788076225}
+  m_Layer: 0
+  m_Name: SnapPoint_Right
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3553759176019602731
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7957174993400419692}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.14, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 5167921780695041142}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6579503018788076225
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7957174993400419692}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a5553c00a1f32de4b9246b000db19105, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  direction: 3
+  isOccupied: 0
+  occupiedBy: {fileID: 0}
+  acceptedTags: []
+  gizmoColorFree: {r: 0, g: 1, b: 0, a: 1}
+  gizmoColorOccupied: {r: 1, g: 0, b: 0, a: 1}
+  gizmoSize: 0.05
+--- !u!1 &8645540900050994482
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5167921780695041142}
+  m_Layer: 0
+  m_Name: SnapPoints
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5167921780695041142
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8645540900050994482}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 2076357461582813359}
+  - {fileID: 7623381091927579459}
+  - {fileID: 3918517635065371094}
+  - {fileID: 3553759176019602731}
+  - {fileID: 7012275210147469631}
+  - {fileID: 5647909975992817006}
+  m_Father: {fileID: 6581443949971158542}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &2434701035180029003
 PrefabInstance:
   m_ObjectHideFlags: 0
