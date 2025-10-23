@@ -1,38 +1,69 @@
-# Factory_Frenzy_VR
+# 🏭 Factory Frenzy
 
-## Tâches réalisées
-
-- [x] **Ajout d’un XR Controller**  
-  Intégration du contrôleur XR afin de permettre les interactions de base dans l’environnement virtuel.
-
-- [x] **Création d’un menu basique**  
-  Mettre en place un menu simple visible en VR (Canvas ou panneau 3D).
-
-- [x] **Ajout de la fonctionnalité de grab sur le menu**  
-  Permettre au joueur de saisir et déplacer le menu dans l’espace.
-
-- [x] **Apparition de prefabs via les boutons**  
-  Créer des boutons de base permettant de faire apparaître des prefabs dans la scène.
-- [x] **Création d’un sérialiseur d’objets de la scène**  
-  Développer un système permettant d’enregistrer et de restaurer les objets présents dans la scène.
-
-- [x] **On peut supprimer les objets en les grabbant ouis en les activant**
-- [x] **Ajout d’images sur les boutons**  
-  Afficher une image représentant chaque prefab afin de le visualiser avant la sélection.
-- [x] **Ajout de sons sur certaines actions**  
-  Jouer un son quand on delete un objet ou quand il spawn.
+> **Projet final CESI — Unity Multijoueur & VR**  
+> Conçu dans le cadre du module Unity/VR pour démontrer les fonctionnalités clés de **Factory Frenzy**, un jeu inspiré de *Fall Guys* mêlant **course multijoueur PC** et **éditeur de niveaux en réalité virtuelle**.
 
 ---
 
-## Tâches à venir
+## 🌐 À propos du projet
 
-- [ ] **Ajout de boutons interactifs**  
-  Ajouter plusieurs boutons au menu (exemples : "Start", "Quit", "Options", "Sélection des prefabs", "Sauvegarde") avec des actions associées.
+**Factory Frenzy** est un jeu où plusieurs joueurs s’affrontent sur un parcours semé d’obstacles, composé de plateformes et de pièges dynamiques.  
+Le projet se décline en **deux applications distinctes mais interconnectées** :
 
+| Application | Description |
+|--------------|-------------|
+| 🖥️ **PC Multijoueur** | Permet aux joueurs de participer à une course compétitive à la troisième personne. |
+| 🕶️ **Éditeur VR** | Permet de **créer**, **placer**, et **exporter** des niveaux complets au format JSON. Ces niveaux peuvent ensuite être joués sur PC. |
 
-
-
-- [ ] **Développement d’un outil de sauvegarde compatible multijoueur**  
-  Concevoir un système de sauvegarde des données synchronisé entre plusieurs joueurs.
+Le lien entre ces deux mondes est le fichier **`Level.json`**, généré en VR et importé dans la version PC.
 
 ---
+
+## 🧩 Fonctionnalités présentes
+
+### 🕶️ Fonctionnalités principales
+| ID | Fonctionnalité | États |
+|----|----------------|-------|
+| **VR-FP1-1** | Téléportation de l'avatar RV | Fonctionnelle ✅ |
+| **VR-FP1-2** | Séléctionner et créer des éléments dans une UI | Fonctionnelle ✅ |
+| **VR-FP1-3** | Attraper et placer des objets | Fonctionnelle ✅ |
+| **VR-FP1-4** | Supprimer des éléments du niveau | Fonctionnelle ✅ |
+| **VR-FP1-5** | Export JSON du niveau | Fonctionnelle ✅ |
+| **VR-FP1-6** | Sons & vibrations | Fonctionnelle ✅ |
+
+---
+
+### 🕶️ Fonctionnalités secondaires
+| ID | Fonctionnalité | États |
+|----|----------------|-------|
+| **VR-FP2-1** | Placement et snap | En cours 💭 |
+| **VR-FP2-2** | Verouiller un éléments | Non disponible ❌ |
+| **VR-FP2-3** | Paramétrage des éléments de la plateforme mobile | Non disponible ❌ |
+
+---
+
+## ⚙️ Technologies utilisées
+
+| Catégorie | Outils |
+|------------|--------|
+| 🎮 Moteur | Unity 2022.3.8f1 |
+| 💻 Langage | C# |
+| 🌐 Réseau | Unity Netcode for GameObjects |
+| 📦 Sérialisation | JsonUtility |
+| 🧠 FSM | Finite State Machine (pièges & logique de tir) |
+| 🕶️ VR | XR Interaction Toolkit (Meta QUEST 3) |
+| 🧰 IDE | Visual Studio Community |
+
+---
+
+## 🧩 Ressources et installation
+
+### 🔧 Logiciels requis
+- Unity **2022.3.1 à 2022.3.8**
+- Visual Studio Community (avec support C# / Unity)
+- Unity Hub  
+
+
+### 🕹️ Installation
+- Télécharger la dernière release sur le Github et dé-zipper le fichier. 
+- Lancer l'exécutable **unity-project.exe**
