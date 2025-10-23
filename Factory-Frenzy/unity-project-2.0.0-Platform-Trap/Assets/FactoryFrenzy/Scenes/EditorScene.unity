@@ -427,7 +427,47 @@ PrefabInstance:
         type: 3}
       insertIndex: -1
       addedObject: {fileID: 1984147659}
+    - targetCorrespondingSourceObject: {fileID: 122084618895949332, guid: 895f6f3c2d334633b5800312285058d2,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 343515484}
   m_SourcePrefab: {fileID: 100100000, guid: 895f6f3c2d334633b5800312285058d2, type: 3}
+--- !u!1 &343515483 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 122084618895949332, guid: 895f6f3c2d334633b5800312285058d2,
+    type: 3}
+  m_PrefabInstance: {fileID: 343515482}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &343515484
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 343515483}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c540a9f95f71927489f27f22ac0d8169, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  primaryButtonAction:
+    m_UseReference: 1
+    m_Action:
+      m_Name: Primary Button
+      m_Type: 0
+      m_ExpectedControlType: 
+      m_Id: e6e3ae1c-7d21-4bab-8e47-d1c13b58c571
+      m_Processors: 
+      m_Interactions: 
+      m_SingletonActionBindings: []
+      m_Flags: 0
+    m_Reference: {fileID: -6395602842196007441, guid: c348712bda248c246b8c49b3db54643f,
+      type: 3}
+  interactableLayerName: Default
+  lockedLayerName: Ignore Raycast
+  lockSound: {fileID: 0}
+  unlockSound: {fileID: 0}
+  volume: 1
 --- !u!224 &367160077 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 6288297253825434823, guid: b6b9c2dd55a0df94cba21b0c11764a19,
@@ -2832,7 +2872,7 @@ PrefabInstance:
     - target: {fileID: 6598815579406187037, guid: 18ddb545287c546e19cc77dc9fbb2189,
         type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
