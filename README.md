@@ -37,7 +37,7 @@ Le lien entre ces deux mondes est le fichier **`Level.json`**, généré en VR e
 | ID | Fonctionnalité | États |
 |----|----------------|-------|
 | **VR-FP2-1** | Placement et snap | En cours 💭 |
-| **VR-FP2-2** | Verouiller un éléments | Non disponible ❌ |
+| **VR-FP2-2** | Verouiller un éléments | Fonctionnelle ✅ |
 | **VR-FP2-3** | Paramétrage des éléments de la plateforme mobile | Non disponible ❌ |
 
 ---
