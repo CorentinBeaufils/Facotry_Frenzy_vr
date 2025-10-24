@@ -5,7 +5,7 @@ using UnityEngine;
 
 public class CopyPathEditor : MonoBehaviour
 {
-    [MenuItem("GameObject/Copy Path")]
+    /*[MenuItem("GameObject/Copy Path")]
     private static void INTERVALES_CopyPath()
     {
         var go = Selection.activeGameObject;
@@ -31,5 +31,5 @@ public class CopyPathEditor : MonoBehaviour
     {
         // We can only copy the path in case 1 object is selected
         return Selection.gameObjects.Length == 1;
-    }
+    }*/
 }
